@@ -272,32 +272,6 @@ a {
 
 /* ==================== STATS ==================== */
 
-.stats-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 14px;
-    margin-top: 55px;
-}
-
-.stat-card {
-    border: 1px solid var(--border);
-    background: rgba(255, 255, 255, .02);
-    border-radius: 18px;
-    padding: 24px;
-}
-
-.stat-card strong {
-    display: block;
-    font-size: 2rem;
-    letter-spacing: -.05em;
-}
-
-.stat-card span {
-    color: #777;
-    font-size: .85rem;
-}
-
-
 /* ==================== PROJECTS ==================== */
 
 .cards-grid {
