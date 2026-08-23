@@ -579,51 +579,29 @@ a {
     color: #888;
 }
 
-
 /* ==================== CONTACT ==================== */
 
 .contact-grid {
     display: grid;
-
-    /*
-     * Two columns on desktop:
-     *
-     * [ Email ]     [ Phone ]
-     * [ LinkedIn ]  [ GitHub ]
-     */
     grid-template-columns: repeat(2, minmax(0, 1fr));
-
     gap: 14px;
-
     max-width: 700px;
-
     margin-top: 32px;
 }
 
-
-/*
- * Contact cards now intentionally look
- * similar to the Hero buttons.
- */
 .contact-card {
     display: flex;
-
     align-items: center;
-
     gap: 10px;
 
     min-height: 48px;
-
     padding: 11px 18px;
 
     background: transparent;
-
     border: 1px solid var(--border);
-
     border-radius: 999px;
 
     color: #bbb;
-
     text-decoration: none;
 
     transition:
@@ -634,9 +612,7 @@ a {
 
 .contact-card:hover {
     border-color: rgba(255, 255, 255, .3);
-
     color: #fff;
-
     transform: translateY(-2px);
 }
 
@@ -648,13 +624,10 @@ a {
     height: 17px;
 
     display: inline-flex;
-
     align-items: center;
     justify-content: center;
 
     flex-shrink: 0;
-
-    color: currentColor;
 }
 
 .contact-icon svg {
@@ -662,28 +635,20 @@ a {
     height: 17px;
 
     fill: none;
-
     stroke: currentColor;
 
     stroke-width: 1.7;
-
     stroke-linecap: round;
-
     stroke-linejoin: round;
 }
 
-
-/*
- * Used by LinkedIn / GitHub SVG icons.
- */
 .contact-icon.icon-fill svg {
     fill: currentColor;
-
     stroke: none;
 }
 
 
-/* Contact text */
+/* ==================== CONTACT TEXT ==================== */
 
 .contact-text {
     min-width: 0;
@@ -695,11 +660,9 @@ a {
     color: #666;
 
     text-transform: uppercase;
-
     letter-spacing: .12em;
 
     font-size: .65rem;
-
     line-height: 1.2;
 
     margin-bottom: 3px;
@@ -711,7 +674,6 @@ a {
     color: #ccc;
 
     font-size: .9rem;
-
     font-weight: 500;
 
     line-height: 1.3;
