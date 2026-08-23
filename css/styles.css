@@ -222,26 +222,13 @@ a {
 /* ==================== ABOUT ==================== */
 
 .about-grid {
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    gap: 70px;
-    align-items: start;
-}
-
-.about-photo-wrap {
-    border: 1px solid var(--border);
-    background: var(--surface);
-    padding: 14px;
-    border-radius: 24px;
-}
-
-.about-photo {
     display: block;
     width: 100%;
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    border-radius: 15px;
-    filter: saturate(.9);
+}
+
+.about-content {
+    width: 100%;
+    max-width: 900px;
 }
 
 .about-content h3 {
@@ -253,7 +240,7 @@ a {
 
 .about-content p {
     color: #aaa;
-    max-width: 760px;
+    max-width: 850px;
     margin-bottom: 20px;
 }
 
@@ -262,41 +249,6 @@ a {
     flex-wrap: wrap;
     gap: 12px;
     margin-top: 30px;
-}
-
-.contact-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 9px;
-    padding: 9px 13px;
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    color: #aaa;
-    font-size: .88rem;
-    transition: .25s;
-}
-
-.contact-item:hover {
-    color: #fff;
-    border-color: rgba(255, 255, 255, .25);
-}
-
-.icon {
-    width: 18px;
-    height: 18px;
-    display: grid;
-    place-items: center;
-}
-
-.icon svg,
-.contact-icon svg {
-    width: 17px;
-    height: 17px;
-    fill: none;
-    stroke: currentColor;
-    stroke-width: 1.7;
-    stroke-linecap: round;
-    stroke-linejoin: round;
 }
 
 
