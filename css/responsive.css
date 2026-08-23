@@ -215,35 +215,28 @@
 
     /* Education */
 
-    .education-card {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        padding: 26px;
-        border-radius: 20px;
-    }
+   /* ==================== EDUCATION ==================== */
 
-    .education-number {
-        padding-top: 0;
-    }
+.education-list {
+    max-width: 100%;
+}
 
-    .education-top {
-        flex-direction: column;
-        gap: 15px;
-    }
+.education-item {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
 
-    .education-year {
-        align-self: flex-start;
-    }
+.education-item h3 {
+    font-size: 1.25rem;
+}
 
-    .education-card h3 {
-        font-size: 1.45rem;
-    }
+.education-specialization {
+    font-size: .95rem;
+}
 
-    .education-details {
-        grid-template-columns: 1fr;
-        gap: 16px;
-        margin-top: 25px;
-    }
+.education-institute {
+    font-size: .88rem;
+}
 
 
     /* Certifications */
