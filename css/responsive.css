@@ -300,6 +300,13 @@
 }
 
 
+@media (max-width: 700px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
 
 .contact-grid {
     grid-template-columns: 1fr;
