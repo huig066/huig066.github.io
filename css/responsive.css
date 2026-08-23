@@ -215,27 +215,25 @@
 
     /* Education */
 
-   /* ==================== EDUCATION ==================== */
+    .timeline {
+        padding-left: 30px;
+    }
 
-.timeline {
-    padding-left: 30px;
-}
+    .timeline-dot {
+        width: 12px;
+        height: 12px;
+        left: -37px;
+        top: 9px;
+    }
 
-.timeline-dot {
-    width: 12px;
-    height: 12px;
-    left: -37px;
-    top: 9px;
-}
+    .timeline-content {
+        padding: 25px;
+        margin-bottom: 20px;
+    }
 
-.timeline-content {
-    padding: 25px;
-    margin-bottom: 20px;
-}
-
-.timeline-content h3 {
-    font-size: 1.2rem;
-}
+    .timeline-content h3 {
+        font-size: 1.2rem;
+    }
 
 
     /* Certifications */
@@ -258,6 +256,7 @@
 
     .contact-grid {
         grid-template-columns: 1fr;
+        margin-top: 25px;
     }
 
     .contact-card {
@@ -297,22 +296,4 @@
         width: fit-content;
     }
 
-}
-
-
-@media (max-width: 700px) {
-
-    .contact-grid {
-        grid-template-columns: 1fr;
-        margin-top: 25px;
-    }
-
-}
-
-.contact-grid {
-    grid-template-columns: 1fr;
-}
-
-.contact-card {
-    padding: 20px;
 }
