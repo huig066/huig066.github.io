@@ -1,2 +1,0 @@
-Place Sai Nithin's photo here with the exact filename: sai_nithin_photo.jpeg
-The portfolio already references this path.
