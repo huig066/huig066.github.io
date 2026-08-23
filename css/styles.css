@@ -421,11 +421,13 @@ a {
     transform: translateY(-2px);
 }
 
-.contact-icon {
-    width: 24px;
-    height: 24px;
+/* ==================== CONTACT ICONS ==================== */
 
-    display: flex;
+.contact-icon {
+    width: 17px;
+    height: 17px;
+
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 
@@ -433,8 +435,8 @@ a {
 }
 
 .contact-icon svg {
-    width: 21px;
-    height: 21px;
+    width: 17px;
+    height: 17px;
 
     fill: none;
     stroke: currentColor;
