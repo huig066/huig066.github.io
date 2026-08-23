@@ -557,3 +557,54 @@ a {
     fill: currentColor;
     stroke: none;
 }
+
+
+
+/* ==================== EDUCATION TIMELINE ==================== */
+
+.timeline {
+    position: relative;
+    padding-left: 40px;
+    border-left: 2px solid var(--border);
+}
+
+.timeline-item {
+    position: relative;
+}
+
+.timeline-dot {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: white;
+    left: -48px;
+    top: 8px;
+}
+
+.timeline-content {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 35px;
+    margin-bottom: 30px;
+}
+
+.timeline-content h3 {
+    margin-bottom: 15px;
+}
+
+.timeline-content p {
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+
+.timeline-content strong {
+    color: white;
+}
+
+.timeline-year {
+    display: inline-block;
+    color: #999;
+    margin-top: 5px;
+}
