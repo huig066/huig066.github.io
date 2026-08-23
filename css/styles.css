@@ -219,57 +219,6 @@ a {
 }
 
 
-/* ==================== ABOUT ==================== */
-
-.about-card {
-    max-width: 950px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 35px;
-}
-
-.about-card p {
-    color: var(--text-secondary);
-    line-height: 1.8;
-    margin-bottom: 20px;
-}
-
-.about-card p:last-child {
-    margin-bottom: 0;
-}
-
-.about-grid {
-    display: block;
-    width: 100%;
-}
-
-.about-content {
-    width: 100%;
-    max-width: 900px;
-}
-
-.about-content h3 {
-    font-size: clamp(1.8rem, 3vw, 2.8rem);
-    line-height: 1.15;
-    letter-spacing: -.04em;
-    margin-bottom: 28px;
-}
-
-.about-content p {
-    color: #aaa;
-    max-width: 850px;
-    margin-bottom: 20px;
-}
-
-.about-contact {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 30px;
-}
-
-
 /* ==================== STATS ==================== */
 
 /* ==================== PROJECTS ==================== */
