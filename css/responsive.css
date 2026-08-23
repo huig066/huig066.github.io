@@ -298,3 +298,13 @@
     }
 
 }
+
+
+
+.contact-grid {
+    grid-template-columns: 1fr;
+}
+
+.contact-card {
+    padding: 20px;
+}
