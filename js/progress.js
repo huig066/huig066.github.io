@@ -1,0 +1,1 @@
+const bar=document.querySelector(".scroll-progress-bar");window.addEventListener("scroll",()=>{if(!bar)return;const h=document.documentElement.scrollHeight-window.innerHeight;bar.style.width=(h>0?(window.scrollY/h)*100:0)+"%"});
