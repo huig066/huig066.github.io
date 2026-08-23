@@ -441,69 +441,76 @@ a {
 
 /* ==================== CONTACT ==================== */
 
-.contact-section {
-    padding-bottom: 130px;
-}
-
-.contact-intro {
-    max-width: 650px;
-    color: #999;
-    margin-top: -25px;
-    margin-bottom: 40px;
-}
-
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
 }
 
 .contact-card {
     display: flex;
     align-items: center;
     gap: 16px;
+
+    padding: 24px;
+
+    background: var(--surface);
     border: 1px solid var(--border);
-    border-radius: 18px;
-    padding: 22px;
-    background: rgba(255, 255, 255, .02);
-    transition: .3s;
+    border-radius: var(--radius);
+
+    color: inherit;
+    text-decoration: none;
+
+    transition: transform .25s ease,
+                border-color .25s ease;
 }
 
 .contact-card:hover {
-    border-color: rgba(255, 255, 255, .22);
     transform: translateY(-3px);
+    border-color: rgba(255, 255, 255, .25);
 }
 
 .contact-icon {
-    width: 40px;
-    height: 40px;
-    border: 1px solid var(--border);
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    color: #bbb;
-    flex: 0 0 auto;
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
 }
 
-.contact-card small {
+.contact-icon svg {
+    width: 24px;
+    height: 24px;
+
+    fill: none;
+    stroke: currentColor;
+
+    stroke-width: 1.7;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.contact-icon-fill svg {
+    fill: currentColor;
+    stroke: none;
+}
+
+.contact-label {
     display: block;
-    color: #666;
-    text-transform: uppercase;
-    letter-spacing: .12em;
-    font-size: .65rem;
+    color: #777;
+    font-size: .8rem;
+    margin-bottom: 5px;
 }
 
 .contact-card strong {
     display: block;
-    color: #ccc;
+    color: #ddd;
     font-size: .9rem;
     font-weight: 500;
-    word-break: break-word;
-}
-
-.linkedin-icon {
-    font-weight: 700;
-    font-size: .85rem;
 }
 
 
