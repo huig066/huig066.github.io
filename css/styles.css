@@ -558,8 +558,6 @@ a {
     stroke: none;
 }
 
-
-
 /* ==================== EDUCATION TIMELINE ==================== */
 
 .timeline {
@@ -606,5 +604,5 @@ a {
 .timeline-year {
     display: inline-block;
     color: #999;
-    margin-top: 5px;
+    margin-bottom: 12px;
 }
