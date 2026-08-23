@@ -217,25 +217,24 @@
 
    /* ==================== EDUCATION ==================== */
 
-.education-list {
-    max-width: 100%;
+.timeline {
+    padding-left: 30px;
 }
 
-.education-item {
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+.timeline-dot {
+    width: 12px;
+    height: 12px;
+    left: -37px;
+    top: 9px;
 }
 
-.education-item h3 {
-    font-size: 1.25rem;
+.timeline-content {
+    padding: 25px;
+    margin-bottom: 20px;
 }
 
-.education-specialization {
-    font-size: .95rem;
-}
-
-.education-institute {
-    font-size: .88rem;
+.timeline-content h3 {
+    font-size: 1.2rem;
 }
 
 
