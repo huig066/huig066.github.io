@@ -704,3 +704,20 @@ a {
 
     gap: 20px;
 }
+
+
+
+.project-points {
+    margin: 18px 0 0 20px;
+    padding: 0;
+    color: #999;
+}
+
+.project-points li {
+    margin-bottom: 8px;
+    padding-left: 5px;
+}
+
+.project-points li::marker {
+    color: #666;
+}
